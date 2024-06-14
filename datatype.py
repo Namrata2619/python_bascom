@@ -147,7 +147,7 @@ x = None
 print(x)
 print(type(x))
 
-## bytearray datatype
+# datatype completed
 
 
 
