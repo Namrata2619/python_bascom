@@ -26,4 +26,19 @@
 # else:
 #     print("OutRange")
 
-# 
+# Write a program to enter marks of five subjects and calculate total, average and percentage.
+
+# num1 = int(input("Enter marks of Chemistry: "))
+# num2 = int(input("Enter marks of Physics: "))
+# num3 = int(input("Enter marks of Maths: "))
+# num4 = int(input("Enter marks of Biology: "))
+# num5 = int(input("Enter marks of English: "))
+
+# num_list = [num1,num2,num3,num4,num5]
+# percentage = (sum(num_list)/500)*100
+
+# print("total of all marks:" + str(num1+num2+num3+num4+num5))
+# print("Average of all marks:"+ str(sum(num_list)/len(num_list)))
+# print(f"Percentage: {percentage:.2f}%")
+
+
