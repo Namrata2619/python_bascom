@@ -41,4 +41,59 @@
 # print("Average of all marks:"+ str(sum(num_list)/len(num_list)))
 # print(f"Percentage: {percentage:.2f}%")
 
+# decimal to binary conversion:
+
+# num  = int(input("Enter decimal number: "))
+# list = []
+# binary = ''
+
+# while num!=0:
+#     remainder = num%2
+#     num = num//2
+#     list.append(remainder) # to add into list
+    
+# list.reverse()
+
+# for i in list:
+#     binary = binary + str(i)
+# print(int(binary))
+
+# binary to decimal conversion:
+
+# binary =int(input("Enter binary number: "))
+# list = []
+
+# while binary != 0:
+#     remainder = binary%10
+#     binary = binary//10
+#     list.append(remainder)
+
+# decimal = 0
+
+# for i in range(0,len(list)):
+#     decimal = decimal + list[i]*(2**i)  # list[i] = values at particular index & i shows index
+# print(decimal)
+
+
+# write a program to write multiplication table of any program
+
+#   8 x 1 = 8
+#   8 x 2 = 16
+#   8 x 3 = 24
+
+# i = 1
+# num = int(input("Enter a number: "))
+
+# while i <=10:
+#     print(f"{num} x {i} = {num*i}")
+#     i+=1
+
+
+    
+
+
+    
+    
+    
+
 
